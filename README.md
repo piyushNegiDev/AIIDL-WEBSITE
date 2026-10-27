@@ -2,6 +2,10 @@
 
 A responsive, multi-page website built for the AIIDL Technologies Frontend & UI/UX Candidate Assignment.
 
+## Live Demo
+
+[View the website](https://aiidl-website.vercel.app/)
+
 ## Overview
 
 The goal of this project is to create a clear, engaging web experience that helps founders and small-business teams understand AIIDL Technologies' services, explore sample project concepts, and get in touch.
