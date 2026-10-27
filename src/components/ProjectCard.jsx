@@ -7,11 +7,11 @@ const ProjectCard = ({ title, description, gradient, children }) => {
   return (
     <div className="group bg-white rounded-2xl overflow-hidden border border-cream-dark/80 hover:border-orange/25 transition-all duration-300 hover:shadow-xl hover:shadow-navy/5">
       {/* Visual thumbnail area */}
-      <div className={`relative h-56 md:h-64 ${gradient} overflow-hidden`}>
+      <div className={`relative h-75 ${gradient} overflow-hidden`}>
         <span className="absolute top-4 left-4 z-10 bg-navy/70 text-white text-[0.7rem] font-semibold px-3 py-1.5 rounded-full backdrop-blur-sm border border-white/10 tracking-wide uppercase">
           Concept project
         </span>
-        <div className="absolute inset-0 flex items-center justify-center p-8 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity duration-300">
           {children}
         </div>
       </div>

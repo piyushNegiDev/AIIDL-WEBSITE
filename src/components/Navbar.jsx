@@ -14,7 +14,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-navy/95 backdrop-blur-md border-b border-white/[0.08]">
+    <header className="sticky top-0 z-50 relative bg-navy/95 backdrop-blur-md border-b border-white/[0.08]">
       <nav
         className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between"
         aria-label="Main navigation"
@@ -76,7 +76,7 @@ const Navbar = () => {
       {isOpen && (
         <div
           id="mobile-nav"
-          className="md:hidden bg-navy border-t border-white/[0.08] px-6 pb-6 pt-3"
+          className="absolute top-full left-0 right-0 md:hidden bg-navy border-t border-white/[0.08] px-6 pb-6 pt-3 shadow-xl"
           role="navigation"
           aria-label="Mobile navigation"
         >
